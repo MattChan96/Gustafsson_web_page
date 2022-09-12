@@ -34,5 +34,49 @@
       cupiditate voluptatibus ipsam velit quo tempore sequi accusamus,
       repellendus obcaecati.
     </h2>
+
+    <form>
+        <div>
+          <label for="name"> Enter Name of Candidate: </label>
+          <input id="name" type="text" placeholder="Name">
+        </div> <br>
+        <div>
+          <label for="date"> Select Today's Date: </label>
+          <input id="date" type="date">
+        </div> <br>
+        <div>
+          <label for="improvetask"> Which task needs the most improving? </label>
+          <select name="section" id="improvetask">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="java">JavaScript</option>
+          </select>
+        </div> <br>
+        <div class="slider">
+          <label for="score">score</label>
+          <input type="range" list="score" min="0" max="100">
+        </div> <br>
+        <fieldset>
+          <legend> Continue
+          </legend>
+          <div>
+            <label for="yes">YES</label>
+            <input type="radio" name="pass" id="yes">
+          </div>
+          <div>
+            <label for="100%">100%</label>
+            <input type="radio" name="pass" id="100%">
+          </div>
+          <div>
+            <label for="Defo">Definitely</label>
+            <input type="radio" name="pass" id="Defo">
+          </div>
+        </fieldset> <br>
+        <div>
+          <div class="commentq"><label for="comments">Any further comments?</label></div>
+          <textarea id="comments" rows="10" cols="100"></textarea>
+        </div>
+      </form>
   </body>
 </html>
+
