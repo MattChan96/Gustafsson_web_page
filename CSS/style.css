@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarpanch:wght@800&display=swap");
+
+body {
+  background-image: url(https://t4.ftcdn.net/jpg/01/97/09/31/360_F_197093173_b4ktrVfhxxg6Zh7jG364LSLv8nFqO7ep.jpg);
+}
+
+h1 {
+  text-align: center;
+  font-family: "Sarpanch", sans-serif;
+  font-size: 8rem;
+  padding: 30px;
+  color: #1d9099;
+  text-shadow: 5px 5px #e79c10, 10px 10px #d53a33;
+  text-decoration: underline dashed;
+  letter-spacing: 10px;
+  background-color: #444444;
+  border: 3px solid black;
+}
+
+.flex-horizontal {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 400px;
+    object-fit: contain;
+    border-radius: 25px;
+}
+
+#para1 {
+    color: #06b053;
+    background-color: #444444;
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.flex-horizontal2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+p {
+   text-align: center;
+   vertical-align: middle;
+
+}
+
+ul {
+    background-color: #e79c10;
+    text-align: center;
+}
+
+form {
+    background-color: aqua;
+    color: darkred;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
